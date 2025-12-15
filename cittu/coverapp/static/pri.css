@@ -1,0 +1,49 @@
+body {
+            font-size: Arial;
+            background:linear-gradient(to bottom,rgb(255, 255, 255));
+        }
+        .box {
+            height: 650px;
+            width: 400px;
+            background-image:url('PINK.jpg');
+            background-size: cover;
+            color:rgb(139, 45, 86);
+            padding: 20px;
+            margin: 30px auto;
+            border: 2px solid rgb(255, 150, 194);
+            border-radius: 10px;
+        }
+        .quote {
+            background: rgb(229, 102, 160);
+            padding: 20px;
+            border-left: 5px solid rgb(164, 58, 97);
+            margin: 50px 0;
+            font-style: italic;
+            text-align: center;
+            
+        }
+        .author {
+            display: flex;
+            gap: 15px;
+            background:rgb(226, 178, 208);
+            padding: 5px;
+            margin-top: 60px;
+            border-start-end-radius: 20px;
+        }
+        .author b{
+            color:rgb(243, 243, 243);
+        }
+        .author img {
+            width: 50px;
+            height: 80px;
+            border-radius: 5px;
+        }
+        .footer {
+            background: rgb(0, 2, 65);
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            border-end-end-radius: 5px;
+        }
